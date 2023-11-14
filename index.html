@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        body{
+            background-color: rgb(1, 1, 31);
+        }
+
+        a{
+            color: chartreuse;
+            text-decoration: none;
+            font-size: 30px;
+            margin-left: 45%;
+            margin-top: 45%;
+            margin-bottom: 45%;
+            font-family: monospace;
+        }
+
+        a:hover{
+            color: blueviolet;
+            font-size: 32px;
+
+            text-shadow: -8px 5px 19px rgba(129,12,236,0.58);
+        }
+    </style>
+</head>
+
+<body>
+    
+
+
+    <a href="ejericio1.html">Ejercicio 1</a>
+    <br><br><br>
+    <a href="ejercicio2.html">Ejercicio 2</a>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        Swal.fire({
+  title: "EJERCICIOS PARCIAL II",
+  showClass: {
+    popup: `
+      animate__animated
+      animate__fadeInUp
+      animate__faster
+    `
+  },
+  hideClass: {
+    popup: `
+      animate__animated
+      animate__fadeOutDown
+      animate__faster
+    `
+  }
+});
+    </script>
+</body>
+</html>
